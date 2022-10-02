@@ -1,0 +1,21 @@
+.App-button{
+    padding: 2px;
+    font-size: 1.3em;
+    background: black;
+    border-radius: 5px;
+    color: ghostwhite;
+}
+.Btn-holder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.App-button:hover{
+    font-size: 1.2em;
+    opacity: .7;
+}
+.App-count-content{
+    text-align: center;
+    background: gray;
+    padding: 4px 8px;
+}
