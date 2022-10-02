@@ -5,9 +5,9 @@ import './style.css'
 function Counter() {
     const [count, setCount] = useState(0);
    
-// useEffect(()=>{
-//     setCount(0)
-// }, [])
+useEffect(()=>{
+    setCount(0)
+}, [])
 
     return (
         <div>
